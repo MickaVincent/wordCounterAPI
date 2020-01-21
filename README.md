@@ -24,10 +24,10 @@ Just a small JavaSpring API to count how many times a word has been pronounced w
 * **Success Response:**
 
     **Content:** 
-      <br />[<br/>
-          { id : digital, counter: 750 }<br />
-          { id : someWord, counter: 250 }<br />
-     ]
+      <br />`[`<br/>
+       <br/>`{ id : digital, counter: 750 }`<br/>
+       <br/>`{ id : someWord, counter: 250 }`<br/>
+     `]`
  
 * **Error Response:**
 
