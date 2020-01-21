@@ -1,7 +1,7 @@
 # WordCounterAPI
-Just a small JavaSpring API to count how many times a word has been pronounced 
+Just a small JavaSpring API to count how many times a word has been pronounced with a MongoDB database
 
-* **GET:** `/initialize`
+* **GET:** `/initialize` Creates a new keyword
 
 * **Data Params**
 
@@ -15,7 +15,7 @@ Just a small JavaSpring API to count how many times a word has been pronounced
 
   * **Code:** 422 UNPROCESSABLE ENTRY <br />
 
-* **GET:** `/getAll`
+* **GET:** `/getAll` Retreives list of registered keywords 
 
 * **Data Params**
   
@@ -31,7 +31,7 @@ Just a small JavaSpring API to count how many times a word has been pronounced
 
   * **Code:** 422 UNPROCESSABLE ENTRY <br />
 
-* **GET:** `/counter`
+* **GET:** `/counter` Retrieves the given keyword
 
 * **Data Params**
 
@@ -45,7 +45,7 @@ Just a small JavaSpring API to count how many times a word has been pronounced
 
   * **Code:** 422 UNPROCESSABLE ENTRY <br />
 
-* **POST:** `/increment`
+* **POST:** `/increment`Increments keyword's counter and returns it
 
 * **Data Params**
 
@@ -59,7 +59,7 @@ Just a small JavaSpring API to count how many times a word has been pronounced
 
   * **Code:** 422 UNPROCESSABLE ENTRY <br />
 
-* **DELETE:** `/delete`
+* **DELETE:** `/delete` Deletes given keyword
 
 * **Data Params**
 
@@ -73,7 +73,7 @@ Just a small JavaSpring API to count how many times a word has been pronounced
 
   * **Code:** 422 UNPROCESSABLE ENTRY <br />
 
-* **DELETE:** `/deleteAll`
+* **DELETE:** `/deleteAll` Deletes all the registered keyword
 
 * **Data Params**
 
